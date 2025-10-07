@@ -65,7 +65,7 @@ public void getall() throws ClassNotFoundException, SQLException {
 	Statement stmt = conn.createStatement();
 	
 	//Création des auteurs
-	requete ="SELECT * FROM auteur";
+	requete ="SELECT * FROM auteur"; 
 	//Exécute la requete
 	resultats = stmt.executeQuery(requete);
 	//Exploite le résultat
