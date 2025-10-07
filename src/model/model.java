@@ -75,7 +75,7 @@ public void getall() throws ClassNotFoundException, SQLException {
 	}
 	
 	//Création des adherents  
-	requete ="SELECT * FROM adherent";
+	requete ="SELECT * FROM adherent"; 
 	
 	resultats = stmt.executeQuery(requete);
 	
