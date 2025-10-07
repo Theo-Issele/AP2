@@ -74,7 +74,7 @@ public void getall() throws ClassNotFoundException, SQLException {
 		listAuteur.add(a);
 	}
 	
-	//Création des adherents 
+	//Création des adherents  
 	requete ="SELECT * FROM adherent";
 	
 	resultats = stmt.executeQuery(requete);
